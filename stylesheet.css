@@ -1,0 +1,269 @@
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+ background-image: url(https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=8);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.top-wrapper h1 {
+  	color: 	rgb(240,255,255);
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  color: rgb(245,255,250);
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+ margin: 50px 0;
+}
+
+.signup {
+    background-color: 	rgb(34,139,34);
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.content p{
+  text-align: justify;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0,206,209,0.5);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:0;
+  /* Change the z-index property to 10 */
+  z-index:10;
+  border-radius:15px;
+}
+
+.logo {
+  width: 70px;
+  height:70px;
+  margin:0 auto;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color:	rgba(169,169,169,0.4);
+  transition: all 0.5s;
+  border-radius:20px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  opacity:1;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 2250px;
+  padding-bottom: 70px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+  border-bottom: red solid 1.5px;
+}
+
+.heading h1 {
+  font-weight: bold;
+}
+.content p{
+  padding:20px auto;
+}
+.symptoms{
+  text-align: center;
+  width:100%;
+  margin-top:60px;
+  height:220px
+}
+.symptoms h2{
+  float:left;
+  width:23%;
+  font-size:15px;
+  color:#5f5d60;
+  background-color: rgba(0,206,209,0.5);
+  line-height: 200px;
+  border-radius: 40px;
+  margin:0 9px;
+}
+.precautions ul{
+  margin-top:60px
+}
+.precautions h3{
+  text-align: left;
+  color: #5f5d60;
+}
+.precautions li{
+  text-align: justify;
+  color: #5f5d60;
+}
+.img{
+  margin-top:40px;
+}
+.img img{
+  float:left;
+  width:48%;
+  padding:9px 9px;
+}
+.support{
+  height: 500px;
+  background-color: #f7f7f7;
+  padding:0 80px;
+  padding-top: 10px;
+}
+.head{
+  text-align: left;
+  padding-bottom: 10px;
+  color: #5f5d60;
+  border-bottom: red solid 1.5px;
+}
+.left{
+  float:left;
+  width:49.5%;
+  text-align:center;
+  border-right: grey solid 1px;
+  height:400px;
+  transition:height 4s;
+}
+.left:hover{
+  font-size:20px
+}
+.left h3{
+  margin-bottom: 80px;
+}
+.left p{
+  color:grey;
+}
+.right{
+  float:right;
+  width:49.5%;
+  text-align:center;
+}
+.list{
+  background-color: rgb(34,139,34);
+}
+form{
+  margin-top:50px;
+}
+.form-control:hover{
+  width:300px;
+  line-height: 40px;
+}
+.form-control{
+  width:200px;
+  background:transparent;
+  border:grey;
+  outline:none;
+  color:grey;
+  margin-bottom: 16px;
+  transition: width 4s;
+}
+.submit{
+  background:green;
+  color: white;
+}
+footer img {
+  width: 100px;
+
+}
+
+footer p {
+  color: black;
+  opacity:0.8;
+  font-size: 20px;
+  float:right;
+}
+
+footer {
+  height: 60px;
+  padding-top: 30px;
+}
+span{
+  color:red;
+}
+footer span{
+  font-size: 10px;
+}
+source{
+  margin-top: 100px;
+text-align: left;
+}
+@media(max-width:1024px){
+  .top-wrapper{
+    width:100%;
+    background-image: url((https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=8) center center cover no-repeat fixed;
+      }
+      .container{
+        width:auto;
+        background-size: cover;
+        padding-right: 15px;
+      }
+}

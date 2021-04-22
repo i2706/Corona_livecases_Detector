@@ -1,0 +1,21 @@
+body{
+  margin:0;
+  font:"cursive";
+  text-align: center;
+  text-decoration: none;
+}
+h1{
+  padding-top: 200px;
+  color:grey;
+}
+a{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  background: 	rgba(50,205,50,0.8);
+  text-decoration: none;
+}
+a:hover{
+background: rgba(50,205,50,1);
+}
